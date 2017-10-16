@@ -1,1 +1,197 @@
- 
+====================
+     10-15-2017
+====================
+
+
+   * device/samsung/j5-common/
+
+2ee4cb4 Remove KernelAdiutor, Adaway and OTAUpdates
+
+096c158 Remove Magisk
+
+6877552 Fix Adaway
+
+   * device/samsung/j5ltechn/
+
+c9fe957 Remove support for OTAUpdates
+
+c89095a overlay: OTAUpdates: Add changelog for the device
+
+   * device/samsung/msm8916-common/
+
+9188b8c sepolicy: system_app.te: address denial
+
+   * packages/apps/OTAUpdates/
+
+2a295295 Do not use changelog from ota.xml for menu_info, use url made available through the string changelog_rom
+
+   * packages/apps/PackageInstaller/
+
+9648350c Don't disable the install button permanently
+
+====================
+     10-14-2017
+====================
+
+
+====================
+     10-13-2017
+====================
+
+
+   * device/samsung/msm8916-common/
+
+8f9db9c proprietary-files: update blobs
+
+   * packages/apps/OTAUpdates/
+
+8a6bcbba Add support for Android Nougat
+
+fe68b241 Add 6.0+ runtime permissions support
+
+====================
+     10-12-2017
+====================
+
+
+   * device/samsung/j5-common/
+
+9ce2042 GZR KernelAdiutor, Adaway apks
+
+   * kernel/samsung/msm8916/
+
+225b6ea9a33 Merge branch 'cm-14.1' of https://github.com/Galaxy-MSM8916/android_kernel_samsung_msm8916 into GZR-7.1
+
+4712c9d4dee Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1
+
+c13654ebc3b sched: Add controls for sched features
+
+7ce22b89797 defconfig: Enable IntelliThermal
+
+b8142c612be fixup Intellithermal to compile inline
+
+8fcc86e15bd Add IntelliThermal v3.1 with Updates and Optimizations
+
+416f3244133 msm: thermal: Add sysfs nodes to control parameters
+
+894178788bd defconfig: enable WQ_POWER_EFFICIENT
+
+cabaf81d1c2 net/ipv4: queue work on power efficient wq
+
+feb6b93ede2 workqueue: Add system wide power_efficient workqueues
+
+d595fcdccfc workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+
+52e2f2218bd Enable cpufreq_alucard
+
+6e6eed41e3f Add cpufreq_alucard v5.0
+
+ffb6a3714b9 Enable msm_limiter
+
+   * vendor/samsung/
+
+44e603b msm8916-common: update blobs
+
+====================
+     10-11-2017
+====================
+
+
+   * hardware/ril/
+
+7a3493f DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+   * hardware/ril-caf/
+
+db49d6e DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+   * packages/apps/PackageInstaller/
+
+834294d0 DO NOT MERGE Disable overlays while installer is resumed
+
+====================
+     10-10-2017
+====================
+
+
+====================
+     10-09-2017
+====================
+
+
+====================
+     10-08-2017
+====================
+
+
+   * build/
+
+9b9b9728f [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
+
+870c5ccb7 [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
+
+   * frameworks/av/
+
+c6cacf9c4 Fix 'potential memory leak' compiler warning.
+
+5d37382c6 Check buffer size in useBuffer in software components
+
+0c8a422ae Fix memory leak in OggExtractor
+
+267a7f2d2 Skip track if verification fails
+
+f19971d95 Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
+
+1c7cf0ade stagefright: avoid buffer overflow in base64 decoder
+
+====================
+     10-07-2017
+====================
+
+
+====================
+     10-06-2017
+====================
+
+
+====================
+     10-05-2017
+====================
+
+
+====================
+     10-04-2017
+====================
+
+
+====================
+     10-03-2017
+====================
+
+
+====================
+     10-02-2017
+====================
+
+
+====================
+     10-01-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+
+512197f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+   * hardware/qcom/display-caf/msm8916/
+
+b9fc743 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8916/
+
+21d80df Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+   * packages/resources/devicesettings/
+
+6c579a5 Remove obsolete values-be translations
+
